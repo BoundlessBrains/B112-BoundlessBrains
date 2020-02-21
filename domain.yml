@@ -1,0 +1,46 @@
+session_config:
+  session_expiration_time: 60.0
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- ask_periods
+- ask_stomach_pain
+- ask_back_pain
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_periods:
+  - text: No need to panic! Periods is a very common biological process in girls.
+      A period happens because of changes in hormones in the body. Hormones give messages
+      to the body. These hormones cause the lining of the uterus (or womb) to build
+      up. This gets the uterus ready for an egg (from the mom) and sperm (from the
+      dad) to attach and grow into a baby. If the woman does not get pregnant, the
+      lining breaks down and bleeds. This same process happens every month. That is
+      why most girls and women get their periods around once a month. Periods usually
+      last about 5 days. But a period can be shorter or last longer according to your
+      body metabolism.
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_periods
