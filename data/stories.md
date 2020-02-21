@@ -1,8 +1,6 @@
 ## happy path
 * greet
   - utter_greet
-* mood_great
-  - utter_happy
 
 ## sad path 1
 * greet
@@ -30,46 +28,62 @@
 * bot_challenge
   - utter_iamabot 
 
-## ask periods 1
-* greet 
-  - utter_greet 
-* ask_periods 
-  - utter_periods 
-  - utter_did_that_help 
-* affirm
-  - utter_happy 
+## period
+* periods
+  - utter_periods
 
-## ask periods 2
-* ask_periods 
-  - utter_periods 
+## periods day
+* periods_days
+  - utter_periods
 
-## ask periods 3
-* greet 
-  - utter_greet 
-* ask_periods 
-  - utter_periods 
-
-## ask cramps 1 
-* greet 
-  - utter_greet 
-* ask_stomach_pain
+## stomach cramp
+* stomach_pain
   - utter_cramps
-  - utter_did_that_help 
-* affirm
-  - utter_happy 
 
-## ask cramps 2  
-* ask_stomach_pain
-  - utter_cramps 
+## pills
+* periods_pills
+  - utter_pills
 
-## ask back pain 1 
-* greet 
-  - utter_greet 
-* ask_back_pain
+## precautions taken
+* periods_precaution
+  - utter_precaution
+
+## periods pain
+* back_pain
   - utter_backpain
-  - utter_did_that_help 
-* affirm
-  - utter_happy
 
+## sanitary pads
+* sanitary_pads
+  - utter_pads
 
+## sanitary disposal
+* sanitary_pads_disposal
+  - utter_pad_dispose
 
+## sanitary hygiene
+* sanitary_pad_hygiene
+  - utter_pad_hygeine
+
+## sanitary duration
+* santinary_pads_durations
+  - utter_pad_duration
+
+## diaper ques
+* silly_ques_periods
+  - utter_silly
+
+## cups menstrual
+* menstrual_cups
+  - utter_cups
+
+## cups time
+* cups_duration
+  - utter_cup_dur
+
+## periods tamp
+* tampons
+  - utter_tampons
+
+## tamp dur
+* tampons_duration
+  - utter_tamp_dur
