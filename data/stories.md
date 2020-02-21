@@ -1,89 +1,128 @@
-## happy path
-* greet
-  - utter_greet
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge 
+  - periods 
+  - periods_days
+  - stomach_pain
+  - periods_pills 
+  - periods_precaution 
+  - back_pain 
+  - sanitary_pads
+  - sanitary_pads_disposal
+  - sanitary_pad_hygiene
+  - santinary_pads_durations
+  - silly_ques_periods
+  - menstrual_cups
+  - cups_duration
+  - tampons
+  - tampons_duration
 
-## sad path 1
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm
-  - utter_happy
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_periods 
+- utter_cramps
+- utter_backpain 
+- action_hello_world
+- periods_days
+- utter_pills 
+- utter_precaution
+- custom_fallback
+- utter_pads
+- utter_pad_dispose
+- utter_pad_hygeine
+- utter_pad_duration
+- utter_silly
+- utter_cups
+- utter_cup_dur
+- utter_tampons
+- utter_tamp_dur
+responses:
+  utter_greet:
+  - text: "Hey! I am Kanya, your menstrual health fairy. You can ask me any doubt you have regarding your periods. Don't fear, for I am here!" 
+  - text: "Hello, beautiful. You can call me Kanya and I am here to help you understand why your body works the way it does. Don't be shy, ask me anything." 
 
-## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
-  - utter_goodbye
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
 
-## say goodbye
-* goodbye
-  - utter_goodbye
+  utter_did_that_help:
+  - text: "Did that help you?"
 
-## bot challenge
-* bot_challenge
-  - utter_iamabot 
+  utter_happy:
+  - text: "So happy to hear that!"
 
-## period
-* periods
-  - utter_periods
+  utter_goodbye:
+  - text: "Hope you're clear now. Happy bleeding!"
 
-## periods day
-* periods_days
-  - utter_periods
+  utter_iamabot:
+  - text: "I am a bot called Kanya which means girl." 
+ 
+  utter_periods: 
+  - text: "No need to panic! Periods is a very common biological process in girls.A period happens because of changes in hormones in the body. Hormones give messages to the body. These hormones cause the lining of the uterus (or womb) to build up. This gets the uterus ready for an egg (from the mom) and sperm (from the dad) to attach and grow into a baby. If the woman does not get pregnant, the lining breaks down and bleeds. This same process happens every month. That is why most girls and women get their periods around once a month. Periods usually last about 5 days. But a period can be shorter or last longer according to your body metabolism."
 
-## stomach cramp
-* stomach_pain
-  - utter_cramps
+  utter_cramps: 
+  - text: "The medical name for period cramps is Dysmenorrhea. They happen due to a hormone-like substance, prostaglandins, which causes the uterus walls to contract and then shed its lining, resulting in your period. If prostaglandin levels are higher, more pain is often associated with the cramps. This varies from woman to woman, but cramps are likely to become less painful as you get older, or after childbirth." 
+  - text: "In most cases, period cramps are a sign of a healthy body reacting to the natural shedding of the uterus wall. However, if menstrual cramps are disrupting your life every cycle, if your symptoms get worse, or if you begin to get severe cramps after you’re 25 years old, you should speak to your doctor."  
 
-## pills
-* periods_pills
-  - utter_pills
+  utter_backpain: 
+  - text: "Back pain! Yes,this is common during periods for some girls like us… Fine! Here is a youtube video: https://www.youtube.com/watch?v=Fq7F2bOQ0u0" 
+ 
+  periods_days:
+  - text: "First don’t panic! Periods are common to every girl and it will last upto 5-7 days and it completely depends on one’s health to tolerate its pain. You cannot stop bleeding! It is a natural process that happens every month."
+  
+  utter_pills:
+  - text: "If you have mild menstrual cramps, take aspirin or another pain reliever, such as acetaminophen, ibuprofen, or naproxen.
+For best relief, Place a heating pad or hot water bottle on your lower back or tummy.
+If the pain still persist I recommend you to consult the Doctor."
 
-## precautions taken
-* periods_precaution
-  - utter_precaution
+  utter_precaution:
+  - text: "First relax yourself! Consuming pills for the stomach cramp can cause any side effects! Instead try to use some natural remedies.
+Some of the remedies are :   -Drink Tea -Avoid Coffee -Alternatively consume hot and cold items."
+  
+  utter_pads:
+  - text: "A sanitary napkin is an absorbent item worn during menstruation, bleeding after giving birth, recovering from gynecologic surgery, experiencing a miscarriage or abortion, or in any other situation.Since the napkin are include antibacterial agents it is SAFE to use." 
 
-## periods pain
-* back_pain
-  - utter_backpain
+  utter_pad_dispose: 
+  - text: "Hey!The sanitary napkins should be thrown away in the trash.Since it is non-biodegradable it should be put in RED colored trash! NOTE: The sanitary napkins should not be reused!" 
 
-## sanitary pads
-* sanitary_pads
-  - utter_pads
+  utter_pad_hygeine: 
+  - text: "Here are some reasons why menstrual hygeine is cool:
+Reduced Risk of Urinary Tract Infections
+Reduced incidents of rashes Genitals
+Ensuring good reproductive health 
+MInimizing the risk of cervical cancer
+And that is the reason why Menstrual day is celebrated every year !" 
 
-## sanitary disposal
-* sanitary_pads_disposal
-  - utter_pad_dispose
+  utter_pad_duration: 
+  - text: "It is recommended to change your pad at least one time every six to eight hours on moderate flow days. If your flow is heavier, you may need to change it more frequently. If you feel moisture, this may indicate you are not changing your pad enough, and you should increase the frequency of doing so."
+  
+  utter_silly: 
+  - text: "Hahah!That's silly!You shouldn't use diapers in the place of a sanitary napkin!USE THINGS WISELY."
 
-## sanitary hygiene
-* sanitary_pad_hygiene
-  - utter_pad_hygeine
+  utter_cups:
+  - text: "It's a flexible cup designed for use inside the vagina your period to collect menstrual blood.The cup actually collects the menstrual flow rather than absorbing it like tampons or pads do.You can use a cup all the way through your cycle , but you might need to change it more often on heavy flow days to guard against leaking. Remove and rinse your cup after 12 hours, or when leaking occurs."
 
-## sanitary duration
-* santinary_pads_durations
-  - utter_pad_duration
+  utter_cup_dur:
+  - text: "Here is no specific duration or time interval!"
 
-## diaper ques
-* silly_ques_periods
-  - utter_silly
+  utter_tampons:
+  - text: "Tampons absorb blood from inside the vagina. A tampon is also made of absorbent material, but its compressed into a small tube and it comes in different sizes and absorbances for heavier and lighter periods.An applicator is a plastic or cardboard tube that guides the tampon into the vagina."     
 
-## cups menstrual
-* menstrual_cups
-  - utter_cups
+  utter_tamp_dur:
+  - text: "It's important to change tampons often. A tampon that's left in too long won't get lost. But a girl may get a discharge,odour or an infection. And never put a tampon in and leave it in all day or all night, even if you have a light period.Change a tampon every 4-6 hours or when it’s saturated with blood."  
 
-## cups time
-* cups_duration
-  - utter_cup_dur
+  
 
-## periods tamp
-* tampons
-  - utter_tampons
-
-## tamp dur
-* tampons_duration
-  - utter_tamp_dur
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
