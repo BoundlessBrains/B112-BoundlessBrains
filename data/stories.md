@@ -9,7 +9,15 @@
   - utter_cheer_up
   - utter_did_that_help
 * affirm
-  - utter_happy
+  - utter_happy 
+
+## affirm 1 
+* affirm 
+  - utter_happy 
+
+## deny 1 
+* deny 
+  - custom_fallback
 
 ## sad path 2
 * greet
@@ -86,4 +94,24 @@
 
 ## tamp dur
 * tampons_duration
-  - utter_tamp_dur
+  - utter_tamp_dur 
+
+## help path 1
+* help 
+  - utter_help 
+* police
+  - utter_police
+  - utter_did_that_help 
+
+## help path 2 
+* help 
+  - utter_help 
+* gynecologist
+  - utter_gynecologist 
+  - utter_did_that_help 
+
+## help path 3 
+* gynecologist
+  - utter_gynecologist 
+  - utter_did_that_help   
+
