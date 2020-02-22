@@ -55,7 +55,9 @@
 - are you a bot?
 - are you a human?
 - am I talking to a bot?
-- am I talking to a human?
+- am I talking to a human? 
+- who are you? 
+- what do you do?
 
 ## intent:periods
 -  why am I bleeding? 
@@ -96,6 +98,12 @@
 ## intent:periods_pills
 - can i use pain killers for cramps?  
 - what pills should i take for stomach ache during periods?
+- side effects of pills?
+- why pills?
+- periods pills
+- periods intake  of pills?
+- stomachache tablets
+- tablets 
 
 ## intent:periods_precaution
 - any precautions for avoiding my stomach pain during periods?
@@ -169,3 +177,29 @@
 - for how many hours does we need to change tampons?
 - how long does it last?
 - duration for using tampons?
+
+## intent:help
+- need help
+- can you help me?
+- i need help from you!
+- a small favour 
+- a little help from your side
+- i like to contact you
+- can you reply to me questions?
+- can you give the exact facts?
+
+## intent:police
+- i would like to contact the police officers
+- can police help me?
+- can police do me a favour?
+- police 
+- contact police 
+- immediate contact to police
+- police helpline number
+
+## intent:gynecologist
+- contact gynecologist
+- i would like to get the help from gynecologist
+- can gynecologist help me to sort this issue?
+- gynecologist list
+- gynecologist help
