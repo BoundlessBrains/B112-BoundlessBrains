@@ -21,6 +21,9 @@ intents:
   - cups_duration
   - tampons
   - tampons_duration
+  - help 
+  - police 
+  - gynecologist
 
 actions:
 - utter_greet
@@ -45,7 +48,11 @@ actions:
 - utter_cups
 - utter_cup_dur
 - utter_tampons
-- utter_tamp_dur
+- utter_tamp_dur 
+- utter_help 
+- utter_police 
+- utter_gynecologist
+
 responses:
   utter_greet:
   - text: "Hey! I am Kanya, your menstrual health fairy. You can ask me any doubt you have regarding your periods. Don't fear, for I am here!" 
@@ -83,7 +90,8 @@ responses:
   utter_pills:
   - text: "If you have mild menstrual cramps, take aspirin or another pain reliever, such as acetaminophen, ibuprofen, or naproxen.
 For best relief, Place a heating pad or hot water bottle on your lower back or tummy.
-If the pain still persist I recommend you to consult the Doctor."
+If the pain still persist I recommend you to consult the Doctor. 
+However remember that such kind of pills have their side effects like spotting,nausea,weight gain,etc."
 
   utter_precaution:
   - text: "First relax yourself! Consuming pills for the stomach cramp can cause any side effects! Instead try to use some natural remedies.
@@ -121,7 +129,15 @@ And that is the reason why Menstrual day is celebrated every year !"
   utter_tamp_dur:
   - text: "It's important to change tampons often. A tampon that's left in too long won't get lost. But a girl may get a discharge,odour or an infection. And never put a tampon in and leave it in all day or all night, even if you have a light period.Change a tampon every 4-6 hours or when it’s saturated with blood."  
 
-  
+  utter_help: 
+  - text: "I'm more than happy to help you with anything you want. I can provide you with information about menstrual health and I can guide you to an online gynecologist. I can also help you to a police hotline if you need it. What is it that you need from me?" 
+
+  utter_police: 
+  - text: "If you feel unsafe or attacked either physically or emotionally, you can contact the helpline launched by our police department: 1091" 
+
+  utter_gynecologist: 
+  - text: "If you need further medical assistance/guidance, you can use the following link to connect with a gynecologist online: https://www.practo.com/consult/ask-a-gynecologist-online. Don't hesitate. You will still be anonymous when you contact them!"
+
 
 session_config:
   session_expiration_time: 60
