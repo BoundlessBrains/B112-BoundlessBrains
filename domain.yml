@@ -75,7 +75,7 @@ responses:
   - text: "I am a bot called Kanya which means girl." 
  
   utter_periods: 
-  - text: "No need to panic! Periods is a very common biological process in girls.A period happens because of changes in hormones in the body. Hormones give messages to the body. These hormones cause the lining of the uterus (or womb) to build up. This gets the uterus ready for an egg (from the mom) and sperm (from the dad) to attach and grow into a baby. If the woman does not get pregnant, the lining breaks down and bleeds. This same process happens every month. That is why most girls and women get their periods around once a month. Periods usually last about 5 days. But a period can be shorter or last longer according to your body metabolism."
+  - text: "No need to panic! Periods is a very common biological process in girls. A period happens because of changes in hormones in the body. Hormones give messages to the body. These hormones cause the lining of the uterus (or womb) to build up. This gets the uterus ready for an egg (from the mom) and sperm (from the dad) to attach and grow into a baby. If the woman does not get pregnant, the lining breaks down and bleeds. This same process happens every month. That is why most girls and women get their periods around once a month. Periods usually last about 5 days. But a period can be shorter or last longer according to your body metabolism."
 
   utter_cramps: 
   - text: "The medical name for period cramps is Dysmenorrhea. They happen due to a hormone-like substance, prostaglandins, which causes the uterus walls to contract and then shed its lining, resulting in your period. If prostaglandin levels are higher, more pain is often associated with the cramps. This varies from woman to woman, but cramps are likely to become less painful as you get older, or after childbirth." 
@@ -98,10 +98,10 @@ However remember that such kind of pills have their side effects like spotting,n
 Some of the remedies are :   -Drink Tea -Avoid Coffee -Alternatively consume hot and cold items."
   
   utter_pads:
-  - text: "A sanitary napkin is an absorbent item worn during menstruation, bleeding after giving birth, recovering from gynecologic surgery, experiencing a miscarriage or abortion, or in any other situation.Since the napkin are include antibacterial agents it is SAFE to use." 
+  - text: "A sanitary napkin is an absorbent item worn during menstruation, bleeding after giving birth, recovering from gynecologic surgery, experiencing a miscarriage or abortion, or in any other situation. Since the napkin are include antibacterial agents it is SAFE to use." 
 
   utter_pad_dispose: 
-  - text: "Hey!The sanitary napkins should be thrown away in the trash.Since it is non-biodegradable it should be put in RED colored trash! NOTE: The sanitary napkins should not be reused!" 
+  - text: "Hey!The sanitary napkins should be thrown away in the trash. Since it is non-biodegradable it should be put in RED colored trash! NOTE: The sanitary napkins should not be reused!" 
 
   utter_pad_hygeine: 
   - text: "Here are some reasons why menstrual hygeine is cool:

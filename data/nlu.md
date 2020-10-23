@@ -161,7 +161,7 @@
 - am i still a virgin if i use cups?
 
 ## intent:cups_duration
--how long does it last?
+- how long does it last?
 - durations for using cups?
 
 ## intent:tampons

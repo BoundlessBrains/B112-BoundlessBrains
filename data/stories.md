@@ -114,4 +114,3 @@
 * gynecologist
   - utter_gynecologist 
   - utter_did_that_help   
-
